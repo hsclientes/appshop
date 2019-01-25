@@ -12,3 +12,4 @@ $factory->define(Product::class, function (Faker $faker) {
         'category_id' => $faker->numberBetween(1,5)
     ]; 
 });
+
